@@ -1,0 +1,25 @@
+{
+  "name": "health-app-vercel",
+  "version": "1.0.0",
+  "description": "银龄康伴 AI 健康管理应用 - Vercel 部署版本",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build needed'",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  },
+  "keywords": [
+    "health",
+    "ai",
+    "nutrition",
+    "elderly-care"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
